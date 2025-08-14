@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .project-card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: left;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+    .project-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .project-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .project-btn:hover {
+      background: rgba(255,255,255,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Projects</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="telegram.html">My Telegram</a>
+      <a href="school.html">My School</a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="project-card">
+      <img src="https://picsum.photos/800/400" alt="Project" class="project-img">
+      <h3>Coffee Shop Website</h3>
+      <p>A beautiful one-page website with menu, contacts, and online ordering for a small coffee shop.</p>
+      <a href="https://www.cafecitosantafe.com/" target="_blank" class="project-btn">View</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://picsum.photos/800/401" alt="Project" class="project-img">
+      <h3>Telegram Assistant Bot</h3>
+      <p>A Python-based bot that answers questions, sends weather updates, and helps with scheduling.</p>
+      <a href="https://t.me/siftbot" target="_blank" class="project-btn">View</a>
+    </div>
+  </section>
+
+</body>
+</html>
